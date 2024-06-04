@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../сайт/css/кон.css">
+    <link rel="icon" type="image/png" href="../сайт/фото/бел.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="главная.html">
+            <img src="../сайт/фото/logos.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="главная.html">Главная</a></li>
+                <li>
+                    <a href="#">Виды деятельности</a>
+                    <ul class="submenu">
+                        <li><a href="торговля.html">Розничная торговля</a></li>
+                        <li><a href="закупка.html">Заготовки</a></li>
+                        <li><a href="питание.html">Общественное питание</a></li>
+                        <li><a href="недвижимость.html">Недвижимость</a></li>
+                        <li><a href="рынок.html">Рынок (для физ.лиц)</a></li>
+                        <li><a href="https://pizza.slonimpo.by/"target="_blank">Пицца Венеция</a></li>
+                    </ul>
+                </li>
+                <li><a href="акции.html">Акции</a></li>
+                <li>
+                    <a href="#">О нас</a>
+                    <ul class="submenu">
+                        <li><a href="о филиале.html">О филиале</a></li>
+                        <li><a href="администрация.html">Администрация</a></li>
+                        <li><a href="прием.html">Прием граждан</a></li>
+                        <li><a href="перечень.html">Перечень процедур</a></li>
+                        <li><a href="вакансии.html">Вакансии</a></li>
+                    </ul>
+                </li>
+                <li><a href="контакты.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+   <div class="header">
+            <h1>Контактная информация</h1>
+        </div>
+    <div class="container">
+     
+        <div class="content">
+            <table>
+                <tr>
+                    <td><strong>Юридический адрес:</td></strong>
+                    <td><strong>Телефоны/Факс:</td></strong>
+                    <td><strong>Режим работы:</td></strong>
+                </tr>
+                <tr>
+                    <td>230023, г. Гродно, ул. 1 Мая, 28<br>Фактический и почтовый адрес: 231800, г. Слоним, ул. Маяковского, 6<br>Электронная почта: <a href="mailto:sln_info@oblpo.by">sln_info@oblpo.by</a></td>
+                    <td>
+                        <span class="tooltip" title="Приемная (Факс)">+375(1562)6-63-38</span><br>
+                        <span class="tooltip" title="Бухгалтерия">+375(1562)6-63-43</span><br>
+                        <span class="tooltip" title="Торговый отдел">+375(1562)6-63-51</span><br>
+                        <span class="tooltip" title="Отдел кадров">+375(1562)6-63-41</span><br>
+                        <span class="tooltip" title="Бухгалтерия">+375(1562)6-63-44</span>
+                    </td>
+                    <td>8:30 - 17:30<br>Обед: 12:30 - 13:30<br>Выходные: Суббота, воскресенье.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td class="containerlol">
+                <h2>Форма обратной связи</h2>
+                <form action="чо.php" method="post">
+                    <label for="fullName">ФИО:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="subject">Тема обращения:</label>
+                    <input type="text" id="subject" name="subject" required>
+            
+                    <label for="message">Введите текст:</label>
+                    <textarea id="message" name="message" required></textarea>
+            
+                    <button type="submit">Отправить</button>
+                </form>
+            </td>
+            <td class="additional-info">
+                <div class="text">
+                    <h4 class="h4">Скачать наши реквизиты вы можете <a class="button" href="Реквизиты.pdf" target="_blank">тут</a></h4>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1138.6239569872823!2d25.31993834153543!3d53.09601380155806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46df47a73fc22893%3A0x21e4004c47620cc9!2z0KHQu9C-0L3QuNC80YHQutC40Lkg0YTQuNC70LjQsNC7INCT0YDQvtC00L3QtdC90YHQutC-0LPQviDQvtCx0LvQv9C-0YLRgNC10LHQvtCx0YnQtdGB0YLQstCw!5e1!3m2!1sru!2sus!4v1715868636091!5m2!1sru!2sus" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </td>
+        </tr>
+    </table>
+    
+
+    <div class="scroll-to-top" onclick="scrollToTop()">&#8593;</div>
+
+    <div class="floating-buttons">
+        <a href="https://vk.com/im?media=&sel=-136681620" target="_blank" class="vk-chat"></a>
+        <div class="popup" id="popup">
+          <span class="popup-text">Открыть чат в VK</span>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Контактная информация</h3>
+                <p>Адрес: улица Маяковского, 6, Слоним</p>
+                <p>Телефон: +375 (1562) 6-63-38</p>
+                <p>Email: sln_info@oblpo.by</p>
+            </div>
+            <div class="social-links">
+                <h3>Мы в соц. сетях</h3>
+                <ul>
+                    <li><a href="https://vk.com/slonimpo" target="_blank">ВКонтакте </a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Слонимский филиал Гродненского облпотребобщества</p>
+        </div>
+    </footer>
+    
+   
+    <script src="../сайт/js/жаба1.js" ></script>
+</body>
+</html>

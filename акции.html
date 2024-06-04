@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акции</title>
+    <link rel="stylesheet" href="../сайт/css/стуле2.css">
+    <link rel="icon" type="image/png" href="../сайт/фото/бел.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="главная.html">
+            <img src="../сайт/фото/logos.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="главная.html">Главная</a></li>
+                <li>
+                    <a href="#">Виды деятельности</a>
+                    <ul class="submenu">
+                        <li><a href="торговля.html">Розничная торговля</a></li>
+                        <li><a href="закупка.html">Заготовки</a></li>
+                        <li><a href="питание.html">Общественное питание</a></li>
+                        <li><a href="недвижимость.html">Недвижимость</a></li>
+                        <li><a href="рынок.html">Рынок (для физ.лиц)</a></li>
+                        <li><a href="https://pizza.slonimpo.by/"target="_blank">Пицца Венеция</a></li>
+                    </ul>
+                </li>
+                <li><a href="акции.html">Акции</a></li>
+                <li>
+                    <a href="#">О нас</a>
+                    <ul class="submenu">
+                        <li><a href="о филиале.html">О филиале</a></li>
+                        <li><a href="администрация.html">Администрация</a></li>
+                        <li><a href="прием.html">Прием граждан</a></li>
+                        <li><a href="перечень.html">Перечень процедур</a></li>
+                        <li><a href="вакансии.html">Вакансии</a></li>
+                    </ul>
+                </li>
+                <li><a href="контакты.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="centered-text">
+            <p>АКТУАЛЬНЫЕ АКЦИИ В ОБЪЕКТАХ РЕАЛИЗАЦИИ</p>
+        </div>
+        
+        <div class="container">
+            <div class="image-container">
+                <img src="../сайт/фото/1стр.png" alt="Image" class="gallery-img active">
+                <img src="../сайт/фото/омали.png" alt="Image" class="gallery-img">
+                <img src="../сайт/фото/кут.jpg" alt="Image" class="gallery-img">
+                <img src="../сайт/фото/коллаж.jpg"alt="Image" class="gallery-img">
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="changeImage('1стр.png')">Акции</button>
+                <button class="button" onclick="changeImage('омали.jpg')">Ома</button>
+                <button class="button" onclick="changeImage('кут.jpg')">Родны кут</button>
+                <button class="button" onclick="changeImage('коллаж.jpg')">Пицца Венеция</button>
+            </div>
+        </div>
+        <div class="thumbnails">
+            <a href="https://www.oma.by/sales/akcionnye-predlozheniya/" target="_blank">
+                <img src="../сайт/фото/images-Photoroom.png-Photoroom.png" alt="Thumbnail 1" class="thumbnail" onclick="changeImage(1)">
+            </a>
+            <a href="https://rodnykut.by/" target="_blank">
+                <img src="../сайт/фото/родны.jpg" alt="Thumbnail 2" class="thumbnail" onclick="changeImage(2)">
+            </a>
+            <a href="https://pizza.slonimpo.by/" target="_blank">
+                <img src="../сайт/фото/pizza1.png" alt="Thumbnail 3" class="thumbnail" onclick="changeImage(3)" style="height: 100px; width: 200px;  position: relative; /* Включаем относительное позиционирование */
+                top: -50px;">
+            </a>
+        </div>
+       
+        </div>
+        <div class="scroll-to-top" onclick="scrollToTop()">&#8593;</div>
+
+        <div class="floating-buttons">
+            <a href="https://vk.com/im?media=&sel=-136681620" target="_blank" class="vk-chat"></a>
+            <div class="popup" id="popup">
+              <span class="popup-text">Открыть чат в VK</span>
+            </div>
+          </div>
+          <footer>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Контактная информация</h3>
+                    <p>Адрес: улица Маяковского, 6, Слоним</p>
+                    <p>Телефон: +375 (1562) 6-63-38</p>
+                    <p>Email: sln_info@oblpo.by</p>
+                </div>
+                <div class="social-links">
+                    <h3>Мы в соц. сетях</h3>
+                    <ul>
+                        <li><a href="https://vk.com/slonimpo" target="_blank">ВКонтакте </a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Слонимский филиал Гродненского облпотребобщества</p>
+            </div>
+        </footer>
+    
+
+    <script src="../сайт/js/жаба.js" ></script>
+</body>
+</html>
